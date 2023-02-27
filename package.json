@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "source": "src/index.html",
+  "homepage": "https://ViktorSvertoka.github.io/goit-js-hw-01/",
   "scripts": {
+    "build": "parcel build src/*.html --public-url /ViktorSvertoka/",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "babel src -d lib",
     "start": "parcel",
