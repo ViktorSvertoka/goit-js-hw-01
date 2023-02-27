@@ -12,6 +12,10 @@
     "start": "parcel",
     "build": "parcel build"
   },
+  "repository": {
+    "type": "github",
+    "url": "github+https://viktorsvertoka.github.io/goit-js-hw-01/"
+  },
   "author": "",
   "license": "ISC",
   "devDependencies": {
