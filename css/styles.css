@@ -11,20 +11,15 @@ body {
   background-color: #fafafa;
   color: #212121;
   line-height: 1.5;
-  background: url() center / cover no-repeat;
+  background: url(../image/js.jpg) center / cover no-repeat;
   min-height: 100vh;
-}
-
-button {
-  padding: 8px 12px;
-  cursor: pointer;
 }
 
 ul {
   list-style: none;
 }
 
-a {
+button {
   padding: 10px;
   margin: 5px;
   border-radius: 10px;
@@ -34,10 +29,16 @@ a {
   display: inline-flex;
   flex-direction: column;
   text-decoration: none;
+  cursor: pointer;
+  text-decoration: none;
 }
 
-a:hover {
+button:hover {
   border: solid white;
   background-color: black;
   color: white;
+}
+
+a {
+  text-decoration: none;
 }
